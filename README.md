@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# 영화 앱 서비스 
+
+영화리스트 및 세부 정보를 조회하는 리액트 앱 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

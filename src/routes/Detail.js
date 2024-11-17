@@ -25,13 +25,15 @@ function Detail() {
         <h1>loading...</h1>
       ) : (
         <div>
-          <h1>title : {movie.title}</h1>
+          <h1>{movie.title}</h1>
+          <img src={movie.medium_cover_image} alt={movie.title} />
+          <p>long title : {movie.title_long}</p>
           <p>
             url : <a href={movie.url}>{movie.url}</a>
           </p>
-          <p>title_long : {movie.title_long}</p>
           <p>year: {movie.year}</p>
           <p>ratig: {movie.rating}</p>
+          <p>description: {movie.description_intro}</p>
           <div>
             <h3>Genres</h3>
             <ul>
